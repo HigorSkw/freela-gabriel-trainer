@@ -3,9 +3,9 @@ import AboutStyled from "./style";
 
 export const About = (): JSX.Element => {
   return (
-    <AboutStyled>
+    <AboutStyled id="about">
       <div className="about-img">
-        <img src={imagegabriel} alt="#" />
+        <img src={imagegabriel} alt="fotoGabriel" />
       </div>
 
       <div className="about-text">

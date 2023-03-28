@@ -3,14 +3,14 @@ import imagePerfil from "../../assets/example1.jpeg";
 
 export const HomeSection = () => {
   return (
-    <HomePage>
+    <HomePage id="home">
       <div className="home-text">
         <h1>
           Eu sou Gabriel Varela <br />
           <span>Personal Trainer</span>
         </h1>
         <h4>Treinos Personalizados</h4>
-        <a href="#" className="btn-read">
+        <a href="#about" className="btn-read">
           Leia mais!
           <br />
         </a>

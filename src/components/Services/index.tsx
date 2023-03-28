@@ -5,7 +5,7 @@ import { BiRun } from "react-icons/bi";
 
 export const Services = (): JSX.Element => {
   return (
-    <ServiceSection>
+    <ServiceSection id="services">
       <div className="heading">
         <h6>Serviços Criativos</h6>
         <h2>Ofereço os seguintes serviços para você</h2>
