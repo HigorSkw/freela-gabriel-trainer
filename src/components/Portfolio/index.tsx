@@ -1,16 +1,15 @@
 import PortfolioSection from "./style";
 import image1 from "../../assets/example1.jpeg";
-import image2 from "../../assets/example2.jpeg";
 
 export const Portfolio = (): JSX.Element => {
   return (
     <PortfolioSection>
       <div className="heading">
         <h6>Criando Momentos!</h6>
-        <h2>Experiências que posso oferecer para você!</h2>
+        <h2>Experiências que posso te proporcionar!</h2>
         <p>
-          Tenha a experiência de um profissional dedicado e aplicado para ajudar
-          a alcançar os seus objetivos!
+          Conheça lugares lindos!! Explore a natureza da Grande Florianópolis
+          comigo!
         </p>
       </div>
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FooterSection = styled.footer`
+export const FooterSection = styled.footer`
   background: var(--second-color);
   padding: 20px 30px;
   display: flex;
@@ -35,4 +35,18 @@ const FooterSection = styled.footer`
   }
 `;
 
-export default FooterSection;
+export const LogoSection = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 100%;
+
+  background: #041f2e;
+  margin-top: 1rem;
+  height: 14rem;
+
+  img {
+    width: 350px;
+  }
+`;

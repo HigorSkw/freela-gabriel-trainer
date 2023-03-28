@@ -5,12 +5,12 @@ import HeaderStyled from "./style";
 const mensagem =
   "Olá, venho através do seu site e gostaria de maiores informações...";
 const mensagemCodificada = encodeURIComponent(mensagem);
-const urlWhahts = `https://wa.me/?text=${mensagemCodificada}`;
+const urlWhahts = `https://api.whatsapp.com/send?phone=5548996503731&text=${mensagemCodificada}`;
 
 export const Header = (): JSX.Element => {
   return (
     <HeaderStyled>
-      <a href="#" className="header-logo">
+      <a href="#home" className="header-logo">
         Gabriel <span>Varela</span>
       </a>
       <div className="bx bx-menu">
@@ -25,9 +25,6 @@ export const Header = (): JSX.Element => {
         </li>
         <li>
           <a href="#services">Serviços</a>
-        </li>
-        <li>
-          <a href="#contact">Contatos</a>
         </li>
       </ul>
       <div className="h-btn">

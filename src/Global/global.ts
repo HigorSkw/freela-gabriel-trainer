@@ -52,7 +52,6 @@ export default createGlobalStyle`
   body {
     color: var(--white);
     -webkit-font-smoothing: antialiased;
-
   }
   body, input, button, textarea {
     font-family: 'Poppins';
@@ -60,6 +59,10 @@ export default createGlobalStyle`
   button {
     text-align: center;
     cursor: pointer;
+  }
+
+  section {
+    padding: 120px 16%;
   }
 
   * {

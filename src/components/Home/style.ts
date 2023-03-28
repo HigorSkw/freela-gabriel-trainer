@@ -77,6 +77,23 @@ const HomePage = styled.main`
       font-size: 1.8rem;
     }
   }
+
+  @media (max-width: 1380px) {
+    padding: 80px 2%;
+    transition: 0.3s;
+
+    .home-text h4 {
+      font-size: 1.2rem;
+    }
+
+    .count span {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 1120px) {
+    height: 85vh;
+  }
 `;
 
 export default HomePage;
