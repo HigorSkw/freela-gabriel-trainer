@@ -6,7 +6,6 @@ export const About = (): JSX.Element => {
     <AboutStyled>
       <div className="about-img">
         <img src={imagegabriel} alt="#" />
-        <h1>Alguma coisa</h1>
       </div>
 
       <div className="about-text">
