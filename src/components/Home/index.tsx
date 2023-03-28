@@ -1,4 +1,5 @@
 import HomePage from "./style";
+import imagePerfil from "../../assets/example1.jpeg";
 
 export const HomeSection = () => {
   return (

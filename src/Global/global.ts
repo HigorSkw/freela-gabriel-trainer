@@ -42,7 +42,7 @@ export default createGlobalStyle`
     justify-content: flex-start;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 
     background-color: var(--bg-color);
     color: var(--white);

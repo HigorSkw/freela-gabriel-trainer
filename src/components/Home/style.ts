@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import runningImage from "../../assets/running.JPG";
-import adventuraImage from "../../assets/adventure.JPG";
 import backround from "../../assets/background.jpg";
 
 const HomePage = styled.main`
