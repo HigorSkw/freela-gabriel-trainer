@@ -39,6 +39,7 @@ export const LogoSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 10rem;
   width: 100%;
 
@@ -48,5 +49,9 @@ export const LogoSection = styled.div`
 
   img {
     width: 350px;
+  }
+
+  @media (max-width: 770px) {
+    margin-bottom: 30px;
   }
 `;

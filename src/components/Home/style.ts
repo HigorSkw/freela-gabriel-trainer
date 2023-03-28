@@ -79,9 +79,6 @@ const HomePage = styled.main`
   }
 
   @media (max-width: 1380px) {
-    padding: 80px 2%;
-    transition: 0.3s;
-
     .home-text h4 {
       font-size: 1.2rem;
     }
@@ -93,6 +90,20 @@ const HomePage = styled.main`
 
   @media (max-width: 1120px) {
     height: 85vh;
+  }
+
+  @media (max-width: 630px) {
+    .home-text {
+      font-size: 1.2rem;
+    }
+
+    .count li {
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+    .count span {
+      font-size: 1.2rem;
+    }
   }
 `;
 

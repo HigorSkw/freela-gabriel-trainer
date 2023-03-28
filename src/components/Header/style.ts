@@ -106,7 +106,9 @@ const HeaderStyled = styled.header`
 
   @media (max-width: 1120px) {
     .bx-menu {
-      display: block;
+      svg {
+        display: block;
+      }
     }
 
     .btn-whats {

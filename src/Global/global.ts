@@ -65,6 +65,51 @@ export default createGlobalStyle`
     padding: 120px 16%;
   }
 
+  @media (max-width: 1380px) {
+    header {
+      padding: 18px 2%;
+      transition: .2s
+    }
+    section{
+      padding: 80px 2%;
+      transition: .3s;
+    }
+
+    :root{
+      --big-font: 3.5rem;
+      --h2-font: 2.5rem;
+    }
+  }
+
+  @media (max-width: 1120px) {
+    header{
+      padding: 14px 2%
+    }
+  }
+
+  @media (max-width: 750px) {
+    :root{
+      --h2-font: 1.9rem;
+      --p-font: 0.9rem;
+    }
+  }
+
+  @media (max-width: 630) {
+    section {
+      padding: 90px 4%;
+    }
+
+    header {
+      padding: 14px 4%
+    }
+
+    :root{
+      --big-font: 3.2rem;
+      --h2-font: 1.9rem;
+      --p-font: 0.9rem;
+    }
+  }
+
   * {
   scrollbar-width: thin;
   scrollbar-color: blue orange;

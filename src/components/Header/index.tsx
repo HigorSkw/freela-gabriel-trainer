@@ -1,6 +1,7 @@
 import logo from "../../assets/logo.jpeg";
 import { ImMenu } from "react-icons/im";
 import HeaderStyled from "./style";
+import { useState } from "react";
 
 const mensagem =
   "Olá, venho através do seu site e gostaria de maiores informações...";
@@ -8,13 +9,15 @@ const mensagemCodificada = encodeURIComponent(mensagem);
 const urlWhahts = `https://api.whatsapp.com/send?phone=5548996503731&text=${mensagemCodificada}`;
 
 export const Header = (): JSX.Element => {
+  const [active, setActive] = useState();
+
   return (
     <HeaderStyled>
       <a href="#home" className="header-logo">
         Gabriel <span>Varela</span>
       </a>
       <div className="bx bx-menu">
-        <ImMenu />
+        <ImMenu id="menu-icon" />
       </div>
       <ul className="navList">
         <li>
