@@ -135,17 +135,16 @@ const HeaderStyled = styled.header`
 
       a:hover {
         background: var(--text-color);
-        color: var(--second-color);
+        color: var(--main-color);
         border: none;
       }
 
       a::after {
         display: none;
       }
-
-      .active {
-        top: 100%;
-      }
+    }
+    .active {
+      top: 100%;
     }
   }
 `;
