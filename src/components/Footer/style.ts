@@ -7,11 +7,13 @@ export const FooterSection = styled.footer`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   p {
     font-size: 14px;
     font-weight: 500;
     color: var(--other-color);
+    margin-bottom: 20px;
   }
 
   .footer-icons {
@@ -32,6 +34,12 @@ export const FooterSection = styled.footer`
 
   .footer-icons a:hover {
     transform: translateY(-5px);
+  }
+
+  @media (max-width: 630px) {
+    p {
+      margin-bottom: 30px;
+    }
   }
 `;
 

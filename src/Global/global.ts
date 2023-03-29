@@ -89,7 +89,8 @@ export default createGlobalStyle`
 
   @media (max-width: 750px) {
     :root{
-      --h2-font: 1.9rem;
+      --big-font: 2.3rem;
+      --h2-font: 1.5rem;
       --p-font: 0.9rem;
     }
   }
@@ -104,8 +105,8 @@ export default createGlobalStyle`
     }
 
     :root{
-      --big-font: 3.2rem;
-      --h2-font: 1.9rem;
+      --big-font: 2rem;
+      --h2-font: 1.4rem;
       --p-font: 0.9rem;
     }
   }

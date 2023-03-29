@@ -1,16 +1,7 @@
 import HomePage from "./style";
 import imagePerfil from "../../assets/example1.jpeg";
-import ScrollReveal from "scrollreveal";
 
 export const HomeSection = () => {
-  const sr = ScrollReveal({
-    distance: "40px",
-    duration: 2600,
-    reset: true,
-  });
-
-  sr.reveal(".home-text", { delay: 300, origin: "left" });
-
   return (
     <HomePage id="home">
       <div className="home-text">
