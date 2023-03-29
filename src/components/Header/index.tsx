@@ -9,7 +9,7 @@ const mensagemCodificada = encodeURIComponent(mensagem);
 const urlWhahts = `https://api.whatsapp.com/send?phone=5548996503731&text=${mensagemCodificada}`;
 
 export const Header = (): JSX.Element => {
-  const [active, setActive] = useState();
+  const [active, setActive] = useState(false);
 
   return (
     <HeaderStyled>
@@ -17,19 +17,22 @@ export const Header = (): JSX.Element => {
         Gabriel <span>Varela</span>
       </a>
       <div className="bx bx-menu">
-        <ImMenu id="menu-icon" />
+        <ImMenu id="menu-icon" onClick={() => setActive(!active)} />
       </div>
-      <ul className="navList">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">Sobre</a>
-        </li>
-        <li>
-          <a href="#services">Serviços</a>
-        </li>
-      </ul>
+
+      {active && (
+        <ul className="navList active">
+          <li onClick={() => setActive(!active)}>
+            <a href="#home">Home</a>
+          </li>
+          <li onClick={() => setActive(!active)}>
+            <a href="#about">Sobre</a>
+          </li>
+          <li onClick={() => setActive(!active)}>
+            <a href="#services">Serviços</a>
+          </li>
+        </ul>
+      )}
       <div className="h-btn">
         <a
           href={urlWhahts}

@@ -1,5 +1,7 @@
 import PortfolioSection from "./style";
-import image1 from "../../assets/example1.jpeg";
+import running1 from "../../assets/running1.jpeg";
+import running2 from "../../assets/running2.jpeg";
+import running3 from "../../assets/running3.jpeg";
 
 export const Portfolio = (): JSX.Element => {
   return (
@@ -15,21 +17,21 @@ export const Portfolio = (): JSX.Element => {
 
       <div className="portfolio-content">
         <div className="col">
-          <img src={image1} alt="" />
+          <img src={running1} alt="" />
           <div className="layer">
-            <h3>Trilha do Santinho</h3>
+            <h3>Acredite</h3>
           </div>
         </div>
         <div className="col">
-          <img src={image1} alt="" />
+          <img src={running2} alt="" />
           <div className="layer">
-            <h3>Trilha do Pedra Branca</h3>
+            <h3>no seu</h3>
           </div>
         </div>
         <div className="col">
-          <img src={image1} alt="" />
+          <img src={running3} alt="" />
           <div className="layer">
-            <h3>Trilha da Guarda</h3>
+            <h3>Potencial!</h3>
           </div>
         </div>
       </div>

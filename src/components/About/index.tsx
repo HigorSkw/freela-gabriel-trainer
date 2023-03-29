@@ -1,4 +1,4 @@
-import imagegabriel from "../../assets/example1.jpeg";
+import imagegabriel from "../../assets/trilha.jpeg";
 import AboutStyled from "./style";
 
 export const About = (): JSX.Element => {

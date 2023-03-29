@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import backround from "../../assets/background.jpg";
+import backround2 from "../../assets/bd.jpeg";
+import backround3 from "../../assets/running1.jpeg";
+import backround4 from "../../assets/running2.jpeg";
+import backround5 from "../../assets/running3.jpeg";
 
 const HomePage = styled.main`
   padding: 120px 16%;
