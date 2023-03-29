@@ -36,6 +36,15 @@ const AboutStyled = styled.section`
     color: var(--blue-light);
     margin-bottom: 2.5rem;
   }
+
+  @media (max-width: 770px) {
+    grid-template-columns: 1fr;
+
+    .about-img {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
 `;
 
 export default AboutStyled;

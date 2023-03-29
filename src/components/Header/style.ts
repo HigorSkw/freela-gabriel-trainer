@@ -55,7 +55,7 @@ const HeaderStyled = styled.header`
   .bx-menu {
     svg {
       font-size: 26px;
-      color: var(--color-text);
+      color: var(--text-color);
       cursor: pointer;
       z-index: 10001;
       display: none;
@@ -64,7 +64,7 @@ const HeaderStyled = styled.header`
 
   .h-btn {
     a {
-      color: var(--color-text);
+      color: var(--text-color);
       font-weight: 500;
       padding: 8px 26px;
       border: 2px solid transparent;
@@ -79,7 +79,7 @@ const HeaderStyled = styled.header`
     }
 
     .btn-insta:hover {
-      background-color: var(--main-color);
+      /* background-color: var(--main-color); */
       color: #000;
       font-weight: 700;
     }
@@ -93,9 +93,59 @@ const HeaderStyled = styled.header`
     }
 
     .btn-whats:hover {
-      background-color: #dd4799;
+      /* background-color: #dd4799; */
       color: #000;
       font-weight: 700;
+    }
+  }
+
+  @media (max-width: 1380px) {
+    padding: 18px 2%;
+    transition: 0.2s;
+  }
+
+  @media (max-width: 1120px) {
+    .bx-menu {
+      svg {
+        display: block;
+      }
+    }
+
+    .btn-whats {
+      display: none;
+    }
+
+    .navList {
+      position: absolute;
+      top: -600px;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      background: var(--main-color);
+      text-align: left;
+      transition: all 0.35s ease;
+
+      a {
+        display: block;
+        padding: 1rem;
+        margin: 1.2rem;
+        border-left: 2px solid var(--text-color);
+      }
+
+      a:hover {
+        background: var(--text-color);
+        color: var(--second-color);
+        border: none;
+      }
+
+      a::after {
+        display: none;
+      }
+
+      .active {
+        top: 100%;
+      }
     }
   }
 `;

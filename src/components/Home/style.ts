@@ -15,7 +15,7 @@ const HomePage = styled.main`
   align-items: center;
 
   .home-text {
-    padding-top: 120px;
+    padding-top: 40px;
 
     h1 {
       font-size: var(--big-font);
@@ -28,6 +28,7 @@ const HomePage = styled.main`
 
     span {
       color: var(--blue-medium);
+      font-size: 1.4rem;
     }
 
     h4 {
@@ -61,20 +62,58 @@ const HomePage = styled.main`
     .count {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 100px;
-    }
 
-    .count li {
-      margin-right: 55px;
-      font-size: 1rem;
-      font-weight: 500;
-      color: var(--text-color);
+      li {
+        margin-right: 55px;
+        /* font-size: 1rem; */
+        font-weight: 500;
+        color: var(--text-color);
+      }
+
+      span {
+        color: var(--text-color);
+        font-weight: 700;
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  @media (max-width: 1380px) {
+    padding: 80px 2%;
+
+    .home-text h4 {
+      font-size: 1.2rem;
     }
 
     .count span {
-      color: var(--text-color);
-      font-weight: 700;
-      font-size: 1.8rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 1120px) {
+    .count {
+      margin-top: 100px;
+    }
+
+    height: 85vh;
+  }
+
+  @media (max-width: 630px) {
+    padding: 90px 4%;
+
+    .home-text h4 {
+      font-size: 1.2rem;
+    }
+
+    .count {
+      margin-top: 30px;
+    }
+    .count li {
+      margin-bottom: 20px;
+      font-size: 0.7rem;
+    }
+    .count span {
+      font-size: 1.2rem;
     }
   }
 `;
