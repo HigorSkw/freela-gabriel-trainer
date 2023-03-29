@@ -10,7 +10,7 @@ const HomePage = styled.main`
 
   height: 100vh;
   width: 100vw;
-  background: url(${backround});
+  background: url(${backround3});
   background-size: cover;
   background-position: center;
   position: relative;
@@ -23,7 +23,7 @@ const HomePage = styled.main`
 
     h1 {
       font-size: var(--big-font);
-      color: var(--text-color);
+      color: var(--blue-grey);
       line-height: 1.11;
       font-weight: 800;
       letter-spacing: 1px;
@@ -70,12 +70,12 @@ const HomePage = styled.main`
       li {
         margin-right: 55px;
         /* font-size: 1rem; */
-        font-weight: 500;
-        color: var(--text-color);
+        font-weight: 600;
+        color: var(--blue-dark);
       }
 
       span {
-        color: var(--text-color);
+        color: var(--blue-dark);
         font-weight: 700;
         font-size: 1.8rem;
       }

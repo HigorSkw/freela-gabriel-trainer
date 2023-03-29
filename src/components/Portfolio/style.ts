@@ -2,13 +2,16 @@ import styled from "styled-components";
 
 const PortfolioSection = styled.section`
   .portfolio-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    grid-gap: 2rem;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     margin-top: 4.4rem;
     text-align: center;
     cursor: pointer;
+    gap: 2rem;
   }
 
   .heading {
@@ -43,7 +46,7 @@ const PortfolioSection = styled.section`
 
     img {
       max-width: 100%;
-      width: 620px;
+      width: 400px;
       height: auto;
     }
   }

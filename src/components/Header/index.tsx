@@ -20,8 +20,20 @@ export const Header = (): JSX.Element => {
         <ImMenu id="menu-icon" onClick={() => setActive(!active)} />
       </div>
 
-      {active && (
+      {active ? (
         <ul className="navList active">
+          <li onClick={() => setActive(!active)}>
+            <a href="#home">Home</a>
+          </li>
+          <li onClick={() => setActive(!active)}>
+            <a href="#about">Sobre</a>
+          </li>
+          <li onClick={() => setActive(!active)}>
+            <a href="#services">Serviços</a>
+          </li>
+        </ul>
+      ) : (
+        <ul className="navList">
           <li onClick={() => setActive(!active)}>
             <a href="#home">Home</a>
           </li>

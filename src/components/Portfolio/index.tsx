@@ -1,7 +1,7 @@
 import PortfolioSection from "./style";
-import running1 from "../../assets/running1.jpeg";
-import running2 from "../../assets/running2.jpeg";
-import running3 from "../../assets/running3.jpeg";
+import adventure from "../../assets/adventure.jpeg";
+import running from "../../assets/running2.jpeg";
+import personal from "../../assets/bd2.jpeg";
 
 export const Portfolio = (): JSX.Element => {
   return (
@@ -17,21 +17,27 @@ export const Portfolio = (): JSX.Element => {
 
       <div className="portfolio-content">
         <div className="col">
-          <img src={running1} alt="" />
+          <h4>Trilhas</h4>
+          <br />
+          <img src={adventure} alt="" />
           <div className="layer">
-            <h3>Acredite</h3>
+            <h3>Trilha Lagoinha do Leste</h3>
           </div>
         </div>
         <div className="col">
-          <img src={running2} alt="" />
+          <h4>Corridas</h4>
+          <br />
+          <img src={running} alt="" />
           <div className="layer">
-            <h3>no seu</h3>
+            <h3>Prova Corrida 10km</h3>
           </div>
         </div>
         <div className="col">
-          <img src={running3} alt="" />
+          <h4>Personal</h4>
+          <br />
+          <img src={personal} alt="" />
           <div className="layer">
-            <h3>Potencial!</h3>
+            <h3>Personal Trainer!</h3>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const ServiceSection = styled.section`
     text-align: center;
 
     h6 {
-      font-size: 16px;
+      font-size: 28px;
       font-weight: 600;
       color: var(--main-color);
       margin-bottom: 15px;

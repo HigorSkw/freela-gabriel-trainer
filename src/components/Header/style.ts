@@ -117,7 +117,7 @@ const HeaderStyled = styled.header`
 
     .navList {
       position: absolute;
-      /* top: -600px; */
+      top: -600px;
       left: 0;
       right: 0;
       display: flex;
