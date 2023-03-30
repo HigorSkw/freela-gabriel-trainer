@@ -24,7 +24,7 @@ const HomePage = styled.main`
     h1 {
       font-size: var(--big-font);
       color: var(--blue-grey);
-      line-height: 1.11;
+      line-height: 1.1;
       font-weight: 800;
       letter-spacing: 1px;
       margin: 0 0 25px;
@@ -124,6 +124,12 @@ const HomePage = styled.main`
   @media (max-height: 390px) {
     .count {
       opacity: 0;
+    }
+
+    .home-text {
+      h1 {
+        line-height: 0.8;
+      }
     }
 
     .btn-read {
