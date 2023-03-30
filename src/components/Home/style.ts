@@ -36,7 +36,7 @@ const HomePage = styled.main`
     }
 
     h4 {
-      color: var(--text-color);
+      color: var(--blue-grey);
       font-size: 1.5rem;
       line-height: 1.21;
       font-weight: 700;
@@ -118,6 +118,16 @@ const HomePage = styled.main`
     }
     .count span {
       font-size: 1.2rem;
+    }
+  }
+
+  @media (max-height: 390px) {
+    .count {
+      opacity: 0;
+    }
+
+    .btn-read {
+      opacity: 0;
     }
   }
 `;

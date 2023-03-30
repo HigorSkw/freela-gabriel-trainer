@@ -47,20 +47,20 @@ export const Header = (): JSX.Element => {
       )}
       <div className="h-btn">
         <a
-          href={urlWhahts}
-          className="btn-whats"
-          target="_blank"
-          rel="noreferrer"
-        >
-          WhatsApp
-        </a>
-        <a
           href="https://www.instagram.com/gabrielvarela.edf/"
           target="_blank"
           className="btn-insta"
           rel="noreferrer"
         >
           Instagram
+        </a>
+        <a
+          href={urlWhahts}
+          className="btn-whats"
+          target="_blank"
+          rel="noreferrer"
+        >
+          WhatsApp
         </a>
       </div>
     </HeaderStyled>
