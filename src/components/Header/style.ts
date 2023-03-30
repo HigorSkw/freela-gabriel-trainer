@@ -111,7 +111,7 @@ const HeaderStyled = styled.header`
       }
     }
 
-    .btn-insta {
+    .btn-whats {
       display: none;
     }
 
